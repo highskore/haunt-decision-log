@@ -19,7 +19,7 @@ fn phrase(o: &Outcome) -> String {
         Outcome::DeniedInHaunt => "You denied".into(),
         Outcome::AllowedByPlugin(id) => format!("{id} approved"),
         Outcome::DeniedByPlugin(id) => format!("{id} denied"),
-        Outcome::AnsweredInTerminal => "Allowed in terminal:".into(),
+        Outcome::AnsweredInTerminal => "Answered in terminal".into(),
         Outcome::Superseded => "Superseded:".into(),
     }
 }
@@ -120,7 +120,7 @@ mod tests {
         let r = row(0, &decision("Bash", "ls", Outcome::Superseded, "aider"));
         assert_eq!((r.title.as_str(), r.mark, r.subtitle.as_deref()), ("Superseded: ls", Some(Mark::Round), Some("vibes · aider")));
         let r = row(0, &decision("Bash", "ls", Outcome::AnsweredInTerminal, "claude"));
-        assert_eq!(r.title, "Allowed in terminal: ls");
+        assert_eq!(r.title, "Answered in terminal ls");
     }
 
     #[test]
