@@ -1,4 +1,17 @@
-# haunt-decision-log
+<div align="center">
+
+<img src="docs/icon.png" width="96" alt="">
+
+# Decision log
+
+**Search every permission request Haunt recorded, from ⌘K.**
+
+[![Haunt plugin](https://img.shields.io/badge/Haunt-plugin-D97757)](https://github.com/highskore/haunt-hackathon)
+![Plugin API 0.5](https://img.shields.io/badge/plugin%20API-0.5-111)
+![WASM component](https://img.shields.io/badge/WASM-component-654ff0?logo=webassembly&logoColor=white)
+![MIT licence](https://img.shields.io/badge/licence-MIT-6b7280)
+
+</div>
 
 Haunt's decision log as a first-party plugin (`dev.haunt.decision-log`). It adds the ⌘K `log` mode: type `log ` in the palette and search every verified permission request Haunt recorded, newest first.
 
