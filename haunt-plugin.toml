@@ -3,7 +3,7 @@ id = "dev.haunt.decision-log"
 name = "Decision log"
 description = "Search past permission decisions: type log in the ⌘K palette"
 version = "0.1.0"
-api = "0.4"
+api = "0.5"
 entry = "target/wasm32-wasip2/release/haunt_plugin.wasm"
 license = "MIT"
 

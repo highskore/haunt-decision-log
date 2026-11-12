@@ -1,7 +1,7 @@
 [package]
 # Fixed so the manifest's `entry` path stays valid in every plugin made from this template.
 name = "haunt-plugin"
-description = "Haunt's decision log as a plugin: the ⌘K log mode."
+description = "Search past permission decisions: type log in the ⌘K palette"
 edition = "2024"
 license = "MIT"
 version = "0.1.0"
